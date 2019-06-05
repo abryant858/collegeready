@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Ready</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap" rel="stylesheet">
+    <style>
+        .overlay {
+            width: 100%;
+        }
+
+        .h100 {
+            height: 100%;
+        }
+        #btn-go {
+            align-items: center;
+        }
+        /*.overlay,
+        .parallax-text {
+        font-size: 80px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: .11em;
+        font-size: 2.25em;
+        text-rendering: optimizeLegibility;
+        }*/
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+        }
+        .brand-logo {
+            font-family: 'Oswald', sans-serif; 
+        }
+        /* label color */
+        .input-field label {
+            color: #000;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav class="teal lighten-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">College Ready</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <!-- Modal Trigger-->
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Log In</a>                        
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Log in</h4>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="user_name" type="text" class="validate">
+                        <label for="user_name">USERNAME</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="password" type="text" class="validate">
+                        <label for="password">PASSWORD</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">PARENT</option>
+                            <option value="2">STUDENT</option>
+                        </select>
+                        <label>LOGIN IN TYPE</label>
+                    </div>
+                </div>    
+            </div>
+            <div class="modal-footer">
+                <a href="parent.html" class="modal-close waves-effect waves-green btn-flat">Log in</a>
+            </div>
+        </div>                  
+    </header>
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="valign-wrapper h100">
+            <h1 class="white-text overlay center-align">
+                Educational Futures Start Here
+            </h1>   
+            
+            <div class="parallax">
+                <img src="assets/images/index1.jpg" class="responsive-img">
+            </div>
+            
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <div class="row">
+                <div class="col s12">
+                        <h3 class="header center-align">Meaning of Lorem Ipsum</h3>
+                        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Donec a dui et dui fringilla consectetur id nec massa.</p>
+                </div>
+            </div>    
+        
+            <div class="row">
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons large">school</i>
+                        <p class="promo-caption">Speeds up development</p>
+                        <p class="light center">Nunc posuere purus rhoncus pulvinar aliquam. Donec a dui et dui fringilla consectetur id nec massa.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons large">schedule</i>
+                        <p class="promo-caption">Speeds up development</p>
+                        <p class="light center">Nunc posuere purus rhoncus pulvinar aliquam. Donec a dui et dui fringilla consectetur id nec massa.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons large">attach_money</i>
+                        <p class="promo-caption">Speeds up development</p>
+                        <p class="light center">Nunc posuere purus rhoncus pulvinar aliquam. Donec a dui et dui fringilla consectetur id nec massa.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>    
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/student-studying.jpg" class="responsive-img">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <div class="row">
+                <div class="col s12">
+                        <h2 class="header">Parallax</h2>
+                        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam.</p>
+                </div>
+            </div>  
+            <div class="row">
+                
+            </div>  
+        </div>
+    </div>
+    <footer class="page-footer teal lighten-2">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright ABraynt - All Rights Reserved
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+<!------------------------------------Library Links---------------------------------------------------------->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
